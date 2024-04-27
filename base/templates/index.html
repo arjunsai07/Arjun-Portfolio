@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        {% load static %}
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!-- ===== CSS ===== -->
+        <link rel="stylesheet" href="{% static 'assets/css/styles.css' %}">
+
+        <!-- ===== BOX ICONS ===== -->
+        <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+
+        <title>Arjun Srinivasan Portfolio</title>
+    </head>
+    <body>
+        <!--===== HEADER =====-->
+        <header class="l-header">
+            <nav class="nav bd-grid">
+                <div>
+                    <a href="#" class="nav__logo">Arjun Srinivasan</a>
+                </div>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item"><a href="#home" class="nav__link active">Home</a></li>
+                        <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+                        <li class="nav__item"><a href="#experience" class="nav__link">Work Experience</a></li>
+                        <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
+                        <li class="nav__item"><a href="#projects" class="nav__link">Projects</a></li>
+                        <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+                    </ul>
+                </div>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class='bx bx-menu'></i>
+                </div>
+            </nav>
+        </header>
+
+        <main class="l-main">
+            <!--===== HOME =====-->
+            <section class="home" id="home">
+                <div class="home__container bd-grid">
+                    <h1 class="home__title"><span>HE</span><br>LLO.</h1>
+
+                    <div class="home__scroll">
+                        <a href="#about" class="home__scroll-link"><i class='bx bx-up-arrow-alt' ></i>Scroll down</a>
+                    </div>
+
+                    <img src="{% static 'assets/img/Arjun_Professional.jpg'%}" alt="" class="home__img circular-image" >
+                </div>
+            </section>
+            
+            <!--===== ABOUT =====-->
+            <section class="about section" id="about">
+                <h2 class="section-title">About</h2>
+
+                <div class="about__container bd-grid">
+                    <div class="about__img">
+                        <img src="{%static 'assets/img/arjun-pic.jpeg'%}" alt="" class="prof__img prof-image">
+                    </div>
+
+                    <div>
+                        <h2 class="about__subtitle">I am Arjun Srinivasan</h2>
+                        <span class="about__profession">Aspiring Data Scientist/Data Analyst/Data Engineer</span>
+                        <p class="about__text">Bridging the gap between IT expertise and data-driven innovation, I bring over five years of experience from the IT/Automotive industry with a special focus on Machine Learning, SQL, RPA, and Python. I hold a <b>Master of Science in Data Science</b> from the <b>University of Buffalo</b>, where I deepened my mastery of analytical and machine learning techniques.</p>
+
+<p>Proficient in crafting and implementing data science solutions, I excel at converting data into actionable insights to drive strategic decisions. I'm seeking full-time roles starting July 2024 as a <b>Data Scientist, Data Analyst, Data Engineer, or BI Analyst</b>, where I can leverage my skills to fuel organizational growth.</p><br>
+
+
+<p>Let's connect to explore how my technical toolkit and passion for data can contribute to the success of your team.</p>
+
+                        <div class="about__social">
+                            <a href="https://www.linkedin.com/in/arjun-srinivasan-jul1995" target="_blank" class="about__social-icon"><i class='bx bxl-linkedin' ></i></a>
+                            <a href="https://github.com/arjunsai07" target="_blank" class="about__social-icon"><i class='bx bxl-github' ></i></a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            
+            <!--===== WORK EXPERIENCE =====-->
+<section class="experience section" id="experience">
+    <h2 class="section-title">Work Experience</h2>
+    
+    <div class="experience__container bd-grid">
+        <!-- Experience item 1 -->
+        <div class="experience-highlight">
+            <div class="highlight-content">
+                <h3 class="highlight-title"><b>Machine Learning Engineer Intern - Eitacies Inc</b></h3>
+                <span class="highlight-company"><b>January 2024 - May 2024</b></span>
+                <span class="highlight-location"><b>Santa Clara, California</b></span>
+                <p class="highlight-description">
+                    As an <b>ML Engineer intern</b> for this California based startup, I have delivered projects in <b>Natural Language Processing tasks such as Named Entity Recognition(NER) and Text Classification</b>.
+                    <ol>
+                        <li>Implemented <b>NER using Python's SpaCy library</b> and its advanced <b>pre-trained models</b>.</li>
+                        <li>Utilized <b>Displacy</b> for sophisticated entity visualization.</li>
+                        <li>Integrated tqdm for efficient generation of DocBin objects, aligning with SpaCy's specifications.</li>
+                        <li>Performed Text Classification using ScikitLearn's <b>Naive Bayes</b>, <b>Logistic Regression</b>, <b>Random Forest</b> and LSTM models.</li>
+                        <li>Incorporated <b>stemming, lemmatization, stopwords removal, TF-IDF and N-gram techniques</b> prior to text classification.</li>
+                    </ol>                
+                </p>
+            </div>
+            <div class="highlight-img">
+                <img src="{%static 'assets/img/Eitacies.png'%}" alt="Machine Learning Engineer Intern at Work">
+            </div>
+        </div>
+        
+        <!-- Experience item 2 -->
+        <div class="experience__item">
+            <h3 class="experience__title"><b>Senior Software Engineer - Ford Motor Company</b></h3>
+            <span class="experience__company"><b>April 2019 - December 2022</b></span>
+            <span class="experience__location"><b>Chennai, India</b></span>
+            <p class="experience__description">
+                <ol>
+                    <li><b>Leadership:</b> Mentored 6 juniors in technical and professional areas, enhancing team collaboration and skill
+                  levels.</li>
+                    <li>Chatbot Development:</b> Developed a chatbot with Python and Flask API, using NLP Semantic search to
+                  improve FAQs and cut manual queries by 50%, deployed in Kubernetes containers on-premise.</li>
+                    <li><b>Implemented Decision Tree and Random Forest classifiers</b> to boost customer service at truck service centers,
+                  reducing repetitive repairs by 30%.</li>
+                    <li>Proficiently utilized <b>Relational Database Systems and SQL</b> to perform data analysis and effectively troubleshoot code issues</li>
+                </ol>
+            </p>
+        </div>
+        
+        <!-- Experience item 3 -->
+        <div class="experience__item">
+            <h3 class="experience__title"><b>Assistant System Engineer - Tata Consultancy Services</b></h3>
+            <span class="experience__company"><b>December 2017 - March 2019</b></span>
+            <span class="experience__location"><b>Chennai, India</b></span>
+            <p class="experience__description">
+                <ol>
+                    <li>Managed real-time issue identification and <b>resolved over 100 application bugs</b> in a retail web application’s database using SQL, while facilitating communication with 30+ end-users to effectively address bug impacts.</li>
+                    <li><b>Address complex issues:</b> Assisted Nielsen Holdings, Inc. (Client) in resolving debugging requests using customer-provided ad-hoc data,
+                        with appropriate SLAs. Experienced in <b>Problem Solving</b>.</li>
+                </ol>
+            </p>
+        </div>
+    </div>
+</section>
+
+            
+
+            <!--===== SKILLS =====-->
+            <section class="skills section" id="skills">
+                <h2 class="section-title">Skills</h2>
+
+                <div class="skills__container bd-grid">
+                    <div class="skills__box">
+                        <h3 class="skills__subtitle">Programming Languages I am familiar with</h3>
+                        <span class="skills__name">Python</span>
+                        <span class="skills__name">R</span>
+                        <span class="skills__name">SQL</span>
+                        <span class="skills__name">C#</span>
+                        <span class="skills__name">Javascript</span>
+                        
+                        <h3 class="skills__subtitle">Machine Learning/Statistical Analysis Know-how</h3>
+                        <span class="skills__name">Convolutional Neural Networks</span>
+                        <span class="skills__name">Deep Neural Networks</span>
+                        <span class="skills__name">Tree-based Models(Decision Tree and Random Forest)</span>
+                        <span class="skills__name">Probability Distributions</span>
+                        <span class="skills__name">Hypothesis Testing</span>
+                        <span class="skills__name">Clustering using K-Means and Hierarchical Agglomeration</span>
+                        
+                        <h3 class="skills__subtitle">Time Series Forecasting algorithms</h3>
+                        <span class="skills__name">ARIMA</span>
+                        <span class="skills__name">SARIMA</span>
+                        <span class="skills__name">FBProphet</span>
+                        
+                        <h3 class="skills__subtitle">Natural Language Processing Techniques I have worked on</h3>
+                        <span class="skills__name">Text Classification</span>
+                        <span class="skills__name">Named Entity Recognition</span>
+                        <span class="skills__name">Naive Bayes</span>
+                        <span class="skills__name">Long Short-Term Networks</span>
+                        <span class="skills__name">Stemming Lemmatization</span>
+                        <span class="skills__name">Stopwords removal</span>
+                        <span class="skills__name">N-gram techniques</span>
+                        <span class="skills__name">Term Frequency-Inverse Document Frequency</span>
+
+                        <h3 class="skills__subtitle">Cloud technologies</h3>
+                        <span class="skills__name">Kubernetes containers</span>
+                        <span class="skills__name">Microsoft Azure</span>
+
+                        <h3 class="skills__subtitle">Libraries I have utilized</h3>
+                        <span class="skills__name">ScikitLearn</span>
+                        <span class="skills__name">Pandas</span>
+                        <span class="skills__name">PyTorch</span>
+                        <span class="skills__name">NumPy</span>
+                        <span class="skills__name">SpaCy</span>
+
+                    </div>
+
+                    <div class="skills__img">
+                        <img src="assets/img/skill.jpg" alt="">
+                    </div>
+                </div>
+            </section>
+
+            <!--===== Projects =====-->
+            <section class="projects section" id="projects">
+                <h2 class="section-title">Projects</h2>
+                <div class="project-container">
+                    <!-- Repetitive Repairs -->
+                    <div class="project-card" style="display: flex; align-items: center; justify-content: center; gap: 20px; margin-bottom: 2rem;">
+                        <img src="{% static 'assets/img/truck-repetitive repairs.png' %}" alt="Potential Repetitive Repairs" style="flex-shrink: 0; max-width: 300px; height: auto; display: block;">
+                        <div class="project-details" style="max-width: 600px;">
+                            <h3 style="margin: 0; padding: 0; font-size: 1.5em;">Classification of repetitive truck repairs</h3>
+                            <p style="font-size: 1em;">Identified repetitive repairs in truck service center using Classifiers. Attained <b>72% accuracy</b> and reduction in cost to service center by <b>30% in 6 months</b> - <b>Jan ’21 to July ’21, Ford Motor Company</b></p>
+                        </div>
+                    </div>
+                
+                    <!-- Kubernetes Containers and Python FLASK API for Chatbot -->
+                    <div class="project-card" style="display: flex; align-items: center; justify-content: center; gap: 20px; margin-bottom: 2rem;">
+                        <img src="{% static 'assets/img/kubernetes.png' %}" alt="Kubernetes Containers and Python FLASK API" style="max-width: 300px; height: auto; display: block;">          
+                        <div class="project-details" style="max-width: 600px;">
+                            <h3 style="margin: 0; padding: 0; font-size: 1.5em;">Kubernetes Containers and Python FLASK API for Chatbot</h3>
+                            <p style="font-size: 1em;">Conducted a <b>PoC deploying a Python Flask API</b> for Question-Answering onto <b>Kubernetes containers</b> to
+                            leverage cloud infrastructure’s robustness and scalability - <b>Aug ’21 to Nov ’21, Ford Motor Company</b></p>
+                        </div>
+                    </div>
+
+                    <!-- Identify anomalies in invoice numbers pertinent to vehicles -->
+                    <div class="project-card" style="display: flex; align-items: center; justify-content: center; gap: 20px; margin-bottom: 2rem;">
+                        <img src="{% static 'assets/img/anomaly.png' %}" alt="Identify Anomalies" style="max-width: 300px; height: auto; display: block;">
+                        <div style="max-width: 600px;">
+                            <h3 style="margin: 0; padding: 0; font-size: 1.5em;">Anomaly Detection using PyCaret</h3>
+                            <p style="font-size: 1em;">Identify anomalies in invoice numbers pertinent to vehicles- <b>Nov ’21 to Feb ’22, Ford Motor Company</b></p>
+                        </div>
+                    </div>  
+                    
+                     <!-- Tableau Dashboard for FIFA 18 dataset -->
+                     <div class="project-card" style="display: flex; align-items: center; justify-content: center; gap: 20px; margin-bottom: 2rem;">
+                        <img src="{% static 'assets/img/fifafootball.png' %}" alt="fifatableau" style="max-width: 300px; height: auto; display: block;">
+                        <div style="max-width: 600px;">
+                            <h3 style="margin: 0; padding: 0; font-size: 1.5em;">Tableau Dashboard for FIFA 18 dataset</h3>
+                            <p style="font-size: 1em;">This project aims to visualize the comprehensive data of players
+                                 available in FIFA 18 using Tableau. Through interactive dashboards, we explore
+                                  various aspects of the data, including player ratings, potential, club distributions,
+                                   nationality, and more. The goal is to uncover insights into player performances, 
+                                   club strategies, and overall trends within the game. <b>Nov ’21 to Feb ’22</b></p>
+                        </div>
+                    </div> 
+
+                  </div> 
+            </section>
+
+           
+        
+      
+    </body>
+</html>

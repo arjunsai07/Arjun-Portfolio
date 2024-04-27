@@ -1,0 +1,18 @@
+runtime: custom
+env: flex
+
+entrypoint: gunicorn -b :$PORT MyPortfolio.wsgi:application
+
+runtime_config:
+  python_version: 3.9
+
+env_variables:
+  DJANGO_SECRET_KEY: 'n3$*ph11c*8b$6dira-=3u10c&dxvzrh7mcrq_yn15i67hydza'
+  DJANGO_SETTINGS_MODULE: 'MyPortfolio.settings'
+  # Add other environment variables here, such as database configuration
+
+handlers:
+- url: /static
+  static_dir: static/
+- url: /.*
+  script: auto

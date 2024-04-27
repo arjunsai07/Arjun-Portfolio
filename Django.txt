@@ -1,0 +1,3 @@
+create a new environment for django- python -m venv env
+activate the environment- .\env\Scripts\activate
+to move data from class models to database tables- python manage.py makemigrations
