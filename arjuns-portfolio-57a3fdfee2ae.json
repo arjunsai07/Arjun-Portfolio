@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "arjuns-portfolio",
+  "private_key_id": "57a3fdfee2aee6585b9fc7fdce0e44a00e24a70c",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDDhfQemW7weAM9\n87TlpP8K7hWhApzA81ETLICqTSZjFiIfHRPr994m2As/2Jva3wR/9IhWXOTcaaRN\npzS5weyibGKoMKhEZYuEaby0kouCCWgJPu5+DmDmTG+sVxDlWl4MsDauuwVkZ3X9\n95QQH9jgfF5DtDdqZ6h3sO25wK+yvhwDh+9WtBFAe1q3hNdMHGLrlNiKUTuUXtaB\nHCEiGDPMoUcO5Kg2FqktasKimfwNtIhyBPgmjr1YGQlKOdaVkiT7e43+46M9rUK9\nGMzwD40Y5Vs/BX8oYwR0RLuzuyTZ/nKzQ1GwDVKienfUVWzT5ySEnIPcGPyPLBi7\n7KZyckSXAgMBAAECggEAXZhl/6/bF2mbw7BBzBxrqkPGPskNWKAhE1ieTueXlJ8n\nvlUhEDgbM+T/nZSHJwLTGJ1qFk1pkMlRSYrdBn76U9Ymc/S21+b0HnKvTpFIDvuJ\nvcNOTzF62UOFwa37/I6Brvk7c/E655FPPj+htQZJv0xJo4dFb74nOwSLB/xhHuJk\nGKAUtddkBZ5wZi024rHIhasdSD61E0oPrzUBSTrW4TgnV9DlsbD1m1HU0KWTCFVY\n+1bzSUqlw0+6WcrHfeHIQRH60yM2T7z+3lfysnf6N91sNDw9eU5XymW8auPJQSMe\nQnRty61niSs6jukAhQEC21sn4b0042SmfA8lFohNQQKBgQDn9XfYOAi/0Ar4QX5s\nuTMjPObKiaUy+4V7UfRldKoYHSrJ/DjOLPwzHfcYcV+D/hly1pDMPwnlYgJLEvNX\nXlbWUUjb7T/diZELSKI4c+00BxfzEeDAUEfGu23umbvgu0aFRIyJrkfcLLX7f093\nqIDEEIZ57BCTvcOOGRUd0w263wKBgQDXyb6kJN6+lL90zM2c8GNla1hqFj9cwsQ/\nAUoh21q4ACiBcm/QOOZwFbkwKWAKeJMkWuyHS8Zkwbigb3DJ5FjMA5UTOxOepC/x\nYYqUh8w0L94FOq+NSH1I0FPsEoVR2qjq8F9/k52uKA92mkHsTry2U+swHqrXEq1M\nxsQSDvJlSQKBgCHDDc2P4l4g5ufZiJBEqJfRbno+bKguCfC4Lg1yXKuj2y2JI6+G\nxrKeAvAw2Ek6+/NGHc9MwaD8kf7hZD/sQFFzhVpVfv0837q3uLzkyrrO6YJ8sKzt\nQnU/pLGc+MauG4acQqRrlJQMgfR4RFXTVeKz0Q7/+C246jTNm9A6fv4bAoGAdAnO\n9KHHDiEbG4oOf3hdWupwrwurowwxT9g3ryEwFYYwQfvx2LzgXiGwZg+5z6erKH+k\nddTvqLrrt4p10ntyrLK4dZDtKgAMr/bN+LVVwDKFZ7Z5NLZoeMFef7It8yhscXo1\nQHt27XIpbpPhI1vr6vgRnty+7czjWEgCo9tZydECgYEAnnNrptT11mLv55kwfTsA\ntUFEv2TdfCTolYiynw0LMEa0Q5JRVYRFiK4nUe20CnYV2caM12ECaW92YKG3Iyx5\nPLnZdK6a76SQWIkNk00DQv0Nzt9OwXnqZ6etsXEfVkAQ4Wl7hqDkAw7GaVUgcNMc\nQitPvifgt8HMUq/wPh9UMMo=\n-----END PRIVATE KEY-----\n",
+  "client_email": "static-files-manager@arjuns-portfolio.iam.gserviceaccount.com",
+  "client_id": "117386936969700109523",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/static-files-manager%40arjuns-portfolio.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
